@@ -5,6 +5,7 @@ import Container from "../views/frame/Container.vue";
 import Login from "../views/frame/Login.vue";
 import Dashboard from "../views/frame/Dashboard";
 import Article from "../views/frame/Article";
+import Table from "../views/frame/Table";
 
 Vue.use(VueRouter);
 
@@ -21,7 +22,8 @@ const routes = [
     component: Container,
     children: [
       { path: "dashboard", name: "首页", component: Dashboard },
-      { path: "article", name: "文章", component: Article }
+      { path: "article", name: "文章", component: Article },
+      { path: "table", name: "列表", component: Table }
     ]
   },
   {

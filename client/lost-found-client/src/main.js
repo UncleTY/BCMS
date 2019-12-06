@@ -6,6 +6,7 @@ import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 import "@/styles/index.scss";
 import "font-awesome/scss/font-awesome.scss";
+import "./directive";
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
